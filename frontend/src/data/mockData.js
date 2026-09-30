@@ -1,0 +1,213 @@
+// Mock data for CampusFind College Lost & Found
+
+export const INITIAL_ITEMS = [
+  {
+    id: 1,
+    type: "FOUND",
+    item_name: "iPhone 14 (Midnight Black)",
+    category: "Electronics",
+    description: "Found on the second floor study table near the window. Has a matte navy blue protective bumper case and privacy glass screen protector.",
+    location: "Central Library",
+    date_reported: "2026-09-30",
+    image_url: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=800&q=80",
+    image_visibility: "PUBLIC",
+    phone: "9876543210",
+    status: "ACTIVE",
+    reported_by: "Priya Sharma (Student)",
+    contact_email: "priya.s@campus.edu",
+    private_detail: "Small Harry Potter Deathly Hallows silver sticker inside the bottom corner of the case, lockscreen shows a golden retriever."
+  },
+  {
+    id: 2,
+    type: "FOUND",
+    item_name: "Black Leather Bi-fold Wallet",
+    category: "Accessories",
+    description: "Black genuine leather wallet left behind on a corner dining table after lunch hours. Contains cash, student ID, and cards.",
+    location: "Cafeteria",
+    date_reported: "2026-09-30",
+    image_url: "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=800&q=80",
+    image_visibility: "PRIVATE",
+    phone: "9123456780",
+    status: "ACTIVE",
+    reported_by: "Amit Deshmukh (Staff)",
+    contact_email: "cafeteria.admin@campus.edu",
+    private_detail: "There is a small laminate photo of Lord Ganesh and a blue city metro card hidden inside the zipped coin pouch."
+  },
+  {
+    id: 3,
+    type: "LOST",
+    item_name: "Apple AirPods Pro (2nd Gen)",
+    category: "Electronics",
+    description: "Lost during the morning lectures in Block A. White charging case with a small scratch near the hinge. Essential for my project work.",
+    location: "Block A",
+    date_reported: "2026-09-29",
+    image_url: "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=800&q=80",
+    image_visibility: "PUBLIC",
+    phone: "8765432109",
+    status: "ACTIVE",
+    reported_by: "Vikram Malhotra",
+    contact_email: "vikram.m@campus.edu",
+    private_detail: "Case is engraved with the initials 'VM' on the backside."
+  },
+  {
+    id: 4,
+    type: "FOUND",
+    item_name: "Casio fx-991EX ClassWiz Calculator",
+    category: "Electronics",
+    description: "Found in Lecture Hall 204 on desk #14 right after the Engineering Mathematics midterm exam.",
+    location: "Block B",
+    date_reported: "2026-09-29",
+    image_url: "https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?auto=format&fit=crop&w=800&q=80",
+    image_visibility: "PUBLIC",
+    phone: "7890123456",
+    status: "ACTIVE",
+    reported_by: "Kavita Rao (TA)",
+    contact_email: "kavita.rao@campus.edu",
+    private_detail: "Back cover has a formula cheat sheet taped inside with pencil handwriting and roll number ending in 104."
+  },
+  {
+    id: 5,
+    type: "LOST",
+    item_name: "Navy Blue SwissGear Laptop Backpack",
+    category: "Accessories",
+    description: "Left near the front row of the main auditorium during the tech symposium inauguration. Contains spiral notebooks and a grey Dell charger.",
+    location: "Auditorium",
+    date_reported: "2026-09-28",
+    image_url: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    image_visibility: "PUBLIC",
+    phone: "9988776655",
+    status: "ACTIVE",
+    reported_by: "Rohan Verma",
+    contact_email: "rohan.v@campus.edu",
+    private_detail: "Keyholder ribbon inside front pocket holds a Marvel Iron Man metal keychain."
+  },
+  {
+    id: 6,
+    type: "FOUND",
+    item_name: "Campus Student ID Card",
+    category: "Documents",
+    description: "Student identity badge with university lanyard found near the goal post bench after evening football practice.",
+    location: "Sports Ground",
+    date_reported: "2026-09-28",
+    image_url: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80",
+    image_visibility: "PRIVATE",
+    phone: "6234567890",
+    status: "ACTIVE",
+    reported_by: "Coach Sandeep",
+    contact_email: "sports.office@campus.edu",
+    private_detail: "Card belongs to Computer Science 3rd year student, ID card has a yellow 'Library Pass 2026' sticker on the reverse."
+  },
+  {
+    id: 7,
+    type: "LOST",
+    item_name: "Honda Bike Smart Key with Keychain",
+    category: "Accessories",
+    description: "Black electronic smart key fob with Honda emblem dropped somewhere between Student Hostel 3 and the bike parking lot.",
+    location: "Parking",
+    date_reported: "2026-09-27",
+    image_url: "",
+    image_visibility: "NONE",
+    phone: "8899001122",
+    status: "ACTIVE",
+    reported_by: "Siddharth Jain",
+    contact_email: "siddharth.j@campus.edu",
+    private_detail: "Attached to a red woven tag that says 'REMOVE BEFORE FLIGHT' with a brass house key."
+  },
+  {
+    id: 8,
+    type: "FOUND",
+    item_name: "Thomas' Calculus (14th Edition) Hardcover",
+    category: "Books",
+    description: "Standard university textbook found in the common recreation room on the 1st floor of Hostel Block C.",
+    location: "Hostel",
+    date_reported: "2026-09-27",
+    image_url: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+    image_visibility: "PUBLIC",
+    phone: "7766554433",
+    status: "ACTIVE",
+    reported_by: "Hostel Warden Office",
+    contact_email: "hostel3.warden@campus.edu",
+    private_detail: "Inside title page has highlighted dedication 'Gift from Dad 2024' with bookmarks on Chapter 7 integration."
+  },
+  {
+    id: 9,
+    type: "LOST",
+    item_name: "Hydro Flask 32oz (Olive Green)",
+    category: "Other",
+    description: "Wide mouth insulated vacuum water bottle with black flex cap. Forgotten on the spectator steps near the basketball court.",
+    location: "Sports Ground",
+    date_reported: "2026-09-26",
+    image_url: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=80",
+    image_visibility: "PUBLIC",
+    phone: "9445566778",
+    status: "ACTIVE",
+    reported_by: "Meera Krishnan",
+    contact_email: "meera.k@campus.edu",
+    private_detail: "Bottom silicone boot has stickers of NASA logo and a mountain silhouette."
+  }
+];
+
+export const INITIAL_CLAIMS = [
+  {
+    id: 1,
+    item_id: 2,
+    item_name: "Black Leather Bi-fold Wallet",
+    item_image: "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=800&q=80",
+    item_location: "Cafeteria",
+    claimant_name: "Rahul Sharma",
+    claimant_email: "rahul.sharma@campus.edu",
+    claimant_phone: "9876543210",
+    claim_detail: "There is a small laminate photo of Lord Ganesh and my blue city metro card hidden inside the zipped coin pouch. My driving license is also inside.",
+    date_claimed: "2026-09-30",
+    status: "PENDING"
+  },
+  {
+    id: 2,
+    item_id: 1,
+    item_name: "iPhone 14 (Midnight Black)",
+    item_image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=800&q=80",
+    item_location: "Central Library",
+    claimant_name: "Ananya Patel",
+    claimant_email: "ananya.p@campus.edu",
+    claimant_phone: "9123456789",
+    claim_detail: "Small Harry Potter silver sticker on the inner bottom case and a golden retriever wallpaper.",
+    date_claimed: "2026-09-30",
+    status: "APPROVED"
+  },
+  {
+    id: 3,
+    item_id: 4,
+    item_name: "Casio fx-991EX ClassWiz Calculator",
+    item_image: "https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?auto=format&fit=crop&w=800&q=80",
+    item_location: "Block B",
+    claimant_name: "Devendra Verma",
+    claimant_email: "dev.v@campus.edu",
+    claimant_phone: "9456789012",
+    claim_detail: "It's a black calculator with nothing on the cover.",
+    date_claimed: "2026-09-29",
+    status: "REJECTED"
+  }
+];
+
+export const CATEGORIES = [
+  "All",
+  "Electronics",
+  "Documents",
+  "Accessories",
+  "Books",
+  "Clothing",
+  "Other"
+];
+
+export const LOCATIONS = [
+  "All",
+  "Central Library",
+  "Cafeteria",
+  "Block A",
+  "Block B",
+  "Auditorium",
+  "Sports Ground",
+  "Hostel",
+  "Parking",
+  "Other"
+];
